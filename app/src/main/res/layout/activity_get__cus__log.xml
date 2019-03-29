@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jts.root.attendance.Get_Cus_Log">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#599ABB">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content"
+                android:text="Get_Customers"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+
+                />
+            <Button
+                android:id="@+id/cancelid"
+                android:layout_width="0dp"
+                android:layout_weight="0.2"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_button"
+                android:text="cancel"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="left"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical"
+                android:paddingRight="30dp"
+                android:layout_marginLeft="20dp"
+                android:text="FromDate : "
+                android:textColor="@android:color/black"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="left"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical"
+                android:paddingRight="100dp"
+                android:text="ToDate : "
+                android:textColor="@android:color/black"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+
+        </LinearLayout>
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+           >
+
+            <TextView
+                android:id="@+id/fromdateid"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="left"
+                android:layout_weight="0.4"
+                android:background="@drawable/border"
+                android:gravity="center_vertical"
+                android:paddingLeft="30dp"
+                android:paddingRight="20dp"
+                android:text="Choose Date"
+                android:textColor="@android:color/holo_green_light"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+                <View
+                    android:layout_width="15dp"
+                    android:layout_height="50dp"
+                  >
+                </View>
+                <TextView
+                    android:id="@+id/todateid"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="left"
+                    android:layout_weight="0.4"
+                    android:background="@drawable/border"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="20dp"
+                    android:text="Choose Date"
+
+                    android:textColor="@android:color/holo_green_light"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+            <Button
+                android:id="@+id/submitid"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.2"
+                android:text="submit"
+                android:textSize="13sp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/border_blue"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ccc">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:id="@+id/row"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/blue_background">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:layout_height="match_parent"
+                        android:text="CName"
+                        android:textColor="#fff"
+                        android:gravity="center"
+                        android:layout_gravity="left"
+                        tools:ignore="HardcodedText,RtlHardcoded" />
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="50dp"
+                        android:background="#000">
+                    </View>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:layout_height="match_parent"
+                        android:text="EName"
+                        android:textColor="#fff"
+                        android:gravity="center"
+                        android:layout_gravity="left"
+                        tools:ignore="HardcodedText,RtlHardcoded" />
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="50dp"
+                        android:background="#000">
+                    </View>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:layout_height="match_parent"
+                        android:text="Status"
+                        android:textColor="#fff"
+                        android:gravity="center"
+                        android:layout_gravity="left"
+                        />
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="50dp"
+                        android:background="#000">
+                    </View>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:layout_height="match_parent"
+                        android:text="Visitdate"
+                        android:textColor="#fff"
+                        android:gravity="center"
+                        android:layout_gravity="left"
+                        />
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="50dp"
+                        android:background="#000">
+                    </View>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:layout_height="match_parent"
+                        android:text="Distravel"
+                        android:textColor="#fff"
+                        android:gravity="center"
+                        android:layout_gravity="left"
+                        />
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="50dp"
+                        android:background="#000">
+                    </View>
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+        <ListView
+            android:id="@+id/cuslist"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

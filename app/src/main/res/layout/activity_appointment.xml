@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jts.root.attendance.Appointment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#599ABB">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:layout_height="wrap_content"
+            android:text="JOB TYPE"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+
+            />
+
+    </LinearLayout>
+
+   <!--     android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:text="Book apn for"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.35"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                />
+
+            <EditText
+                android:id="@+id/appointmentid"
+                android:layout_below="@+id/textView3"
+                android:layout_centerHorizontal="true"
+                android:hint="Book Appointment"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="0.65"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textColorHint="#808080"
+                android:textSize="20sp"
+                android:background="@drawable/border"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:text="Name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.35"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/nameid"
+                android:layout_below="@+id/textView3"
+                android:hint="Enter Name"
+                android:layout_centerHorizontal="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="0.65"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textColorHint="#808080"
+                android:textSize="20sp"
+                android:background="@drawable/border"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.35"
+                android:text="Mobile Num"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/mobileid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="0.65"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Enter Mobilenum"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textColorHint="#808080"
+                android:textSize="20sp"
+                android:background="@drawable/border"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.35"
+                android:text="Address"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/addressid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="0.65"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Enter Address"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textColorHint="#808080"
+                android:textSize="20sp"
+                android:background="@drawable/border"/>
+        </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.4"
+                android:text="JObType"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000"
+                android:textSize="15sp"/>
+
+            <Spinner
+                android:id="@+id/apntypeid"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="0.6"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textColorHint="#808080"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.4"
+                android:text="TeamNeeded"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+
+            <Spinner
+                android:id="@+id/teamneedid"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="0.6"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textColorHint="#808080"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/noteid"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="0.7"
+                android:layout_marginLeft="10dp"
+                android:background="@null"
+                android:gravity="top|left"
+                android:hint="Text Note........"
+                android:inputType="textMultiLine"
+                android:lines="10"
+                android:maxLines="20"
+                android:minLines="2"
+                android:scrollbars="vertical"
+                android:singleLine="true"
+                android:textColor="#2d6df7"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.2"
+                android:gravity="center_vertical"
+                android:text="VisitDate : "
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/black" />
+
+
+            <TextView
+                android:id="@+id/visitdateid"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.3"
+                android:background="@drawable/border"
+                android:gravity="center_vertical"
+                android:text="Choose Date"
+                android:layout_marginRight="5dp"
+                android:textColor="@android:color/holo_green_light" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="0.2"
+                android:gravity="center_vertical"
+                android:text="ApnDate : "
+                android:layout_marginLeft="5dp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/appindateid"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.3"
+                android:background="@drawable/border"
+                android:gravity="center_vertical"
+                android:text="Choose Date"
+                android:textColor="@android:color/holo_green_light" />
+        </LinearLayout>
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:text="Save"
+                android:id="@+id/saveid"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="0.5"
+                android:textSize="13sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="30dp"
+                android:textColor="@android:color/black"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerVertical="true"
+                android:background="@drawable/savebtn"                />
+                />
+
+
+                <Button
+                    android:id="@+id/cancelbtn"
+                    android:text="cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_weight="0.5"
+                    android:textSize="13sp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="30dp"
+                    android:textColor="@android:color/black"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/savebtn"                />
+
+                    />
+            </LinearLayout>
+    </LinearLayout>
+
+

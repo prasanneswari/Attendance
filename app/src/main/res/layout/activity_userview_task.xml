@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jts.root.attendance.Userview_task">
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="#599ABB"
+         >
+         <TextView
+             android:layout_width="0dp"
+             android:layout_weight="0.8"
+             android:layout_height="wrap_content"
+             android:text="Userview_Task"
+             android:textStyle="bold"
+             android:textColor="@android:color/white"
+             android:textSize="30dp"
+             android:gravity="center"
+             android:layout_marginTop="10dp"
+             android:layout_marginBottom="10dp"/>
+         <Button
+             android:id="@+id/cancelid"
+             android:layout_width="0dp"
+             android:layout_weight="0.2"
+             android:layout_height="wrap_content"
+             android:background="@drawable/white_button"
+             android:text="cancel"
+             android:gravity="center"
+             android:layout_marginTop="5dp"
+             android:layout_marginRight="5dp"/>
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="10dp"
+         android:layout_marginTop="10dp">
+
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="40dp"
+             android:layout_gravity="left"
+             android:layout_weight="0.4"
+             android:gravity="center_vertical"
+             android:paddingLeft="10dp"
+             android:paddingRight="2dp"
+             android:text="Customer Name :"
+             android:textColor="@android:color/black"
+             tools:ignore="HardcodedText,RtlHardcoded" />
+
+         <TextView
+             android:id="@+id/cusmnameid"
+             android:layout_width="0dp"
+             android:layout_height="40dp"
+             android:layout_weight="0.6"
+             android:background="@drawable/border"
+             android:gravity="center_vertical"
+             android:hint="Customername"
+             android:paddingLeft="20dp"
+             android:paddingRight="2dp"
+             android:textColor="@android:color/black"
+             tools:ignore="HardcodedText,RtlHardcoded" />
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="10dp">
+
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="40dp"
+             android:layout_gravity="left"
+             android:layout_weight="0.4"
+             android:gravity="center_vertical"
+             android:paddingLeft="10dp"
+             android:paddingRight="2dp"
+             android:text="Address"
+             android:textColor="@android:color/black"
+             tools:ignore="HardcodedText,RtlHardcoded" />
+
+         <TextView
+             android:id="@+id/addressid"
+             android:layout_width="0dp"
+             android:layout_height="40dp"
+             android:layout_weight="0.6"
+             android:background="@drawable/border"
+             android:gravity="center_vertical"
+             android:hint="Address"
+             android:paddingLeft="20dp"
+             android:paddingRight="2dp"
+             android:textColor="@android:color/black"
+             tools:ignore="HardcodedText,RtlHardcoded" />
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="10dp">
+
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="40dp"
+             android:layout_gravity="left"
+             android:layout_weight="0.4"
+             android:gravity="center_vertical"
+             android:paddingLeft="10dp"
+             android:paddingRight="2dp"
+             android:text="ContactNo"
+             android:textColor="@android:color/black"
+             tools:ignore="HardcodedText,RtlHardcoded" />
+
+         <TextView
+             android:id="@+id/contactnoid"
+             android:layout_width="0dp"
+             android:layout_height="40dp"
+             android:layout_weight="0.6"
+             android:background="@drawable/border"
+             android:gravity="center_vertical"
+             android:hint="Contact"
+             android:paddingLeft="20dp"
+             android:paddingRight="2dp"
+             android:textColor="@android:color/black"
+             tools:ignore="HardcodedText,RtlHardcoded" />
+     </LinearLayout>
+
+
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center">
+
+         <Button
+             android:id="@+id/addnotesid"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="0.5"
+             android:ems="10"
+             android:textSize="13sp"
+             android:enabled="true"
+             android:gravity="center"
+             android:background="@drawable/savebtn"
+             android:text="AddNotes"
+             android:layout_marginRight="30dp"
+             tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded" />
+         <Button
+             android:id="@+id/apntid"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="0.5"
+             android:ems="10"
+             android:textSize="13sp"
+             android:enabled="true"
+             android:gravity="center"
+             android:background="@drawable/savebtn"
+             android:text="Appointment"
+             tools:ignore="ButtonStyle,HardcodedText" />
+     </LinearLayout>
+
+ </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#599ABB">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:layout_height="wrap_content"
+            android:text="Add_Notes"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="wrap_content"
+            android:text="Notes :"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+
+            />
+
+        <EditText
+            android:id="@+id/addnoteid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0.7"
+            android:background="@null"
+            android:gravity="top|left"
+            android:hint="Text Note........"
+            android:inputType="textMultiLine"
+            android:lines="10"
+            android:maxLines="25"
+            android:minLines="10"
+            android:scrollbars="vertical"
+            android:singleLine="true"
+            android:textColor="#2d6df7"
+            android:layout_marginLeft="10dp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        tools:ignore="ExtraText"
+        android:layout_marginBottom="30dp">
+        <Button
+            android:text="Save"
+            android:id="@+id/notessaveid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:textSize="13sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@android:color/black"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerVertical="true"
+            android:background="@drawable/savebtn"                />
+        />
+        <Button
+            android:id="@+id/notescancelbtn"
+            android:text="cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:textSize="13sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@android:color/black"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerVertical="true"
+            android:background="@drawable/savebtn"                />
+
+        />
+    </LinearLayout>
+    </LinearLayout>

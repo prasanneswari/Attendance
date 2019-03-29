@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jts.root.attendance.Admin_NewTask">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#599ABB">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content"
+                android:text="New Task"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            >
+
+            <Button
+                android:id="@+id/saveid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:ems="5"
+                android:textSize="13sp"
+                android:enabled="true"
+                android:gravity="center"
+                android:background="@drawable/savebtn"
+                android:text="Save"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded" />
+            <Button
+                android:id="@+id/cancelid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:ems="5"
+                android:textSize="13sp"
+                android:enabled="true"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/savebtn"
+                android:text="cancel"
+                tools:ignore="ButtonStyle,HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="left"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="2dp"
+                android:text="Customer Name"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000"
+                android:textSize="15sp"/>
+
+            <Spinner
+                android:id="@+id/cusnameid"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="0.6"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textColorHint="#808080"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="left"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="2dp"
+                android:text="JobType"
+                android:textColor="@android:color/black"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <Spinner
+                android:id="@+id/jobtypeid"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="0.6"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textColorHint="#808080"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+          >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="left"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="2dp"
+                android:text="Address"
+                android:textColor="@android:color/black"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/addressid"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.6"
+                android:background="@drawable/border"
+                android:gravity="center_vertical"
+                android:hint="Address"
+                android:paddingLeft="20dp"
+                android:paddingRight="2dp"
+                android:textColor="@android:color/black"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+           >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="left"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="2dp"
+                android:text="ContactNo"
+                android:textColor="@android:color/black"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/contactid"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.6"
+                android:background="@drawable/border"
+                android:gravity="center_vertical"
+                android:hint="Contactno"
+                android:paddingLeft="20dp"
+                android:paddingRight="2dp"
+                android:textColor="@android:color/black"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="left"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="2dp"
+                android:text="Due Date : "
+                android:textColor="@android:color/black"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/duedateid"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="left"
+                android:layout_weight="0.6"
+                android:background="@drawable/border"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="2dp"
+                android:text="Choose Date"
+                android:textColor="@android:color/holo_green_light"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="left"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="2dp"
+                android:text="Completed Date : "
+                android:textColor="@android:color/black"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/cmpltdateid"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="left"
+                android:layout_weight="0.6"
+                android:background="@drawable/border"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="2dp"
+                android:text="Choose Date"
+                android:textColor="@android:color/holo_green_light"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.73"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal">
+            <ListView
+                android:id="@+id/emplist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ListView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="0.17"
+            android:layout_height="0dp"
+            android:layout_gravity="right"
+           >
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:background="#fff"
+                android:padding="10dp"
+                android:id="@+id/plusimg"
+                android:src="@drawable/plusimg" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

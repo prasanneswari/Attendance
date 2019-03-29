@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jts.root.attendance.Adapter_GetCusLog">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        tools:ignore="UselessParent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:id="@+id/row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:text="CName"
+                    android:textColor="#000"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:id="@+id/cnameid"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:background="#000">
+                </View>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:text="EName"
+                    android:id="@+id/enameid"
+                    android:textColor="#000"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:background="#000">
+                </View>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:text="Status"
+                    android:textColor="#000"
+                    android:id="@+id/statusid"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:background="#000">
+                </View>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:text="Visitdata"
+                    android:id="@+id/visitdateid"
+                    android:textColor="#000"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:background="#000">
+                </View>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:text="Distravel"
+                    android:id="@+id/distravel"
+                    android:textColor="#000"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:background="#000">
+                </View>
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jts.root.attendance.Customer_List">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#599ABB">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content"
+                android:text="CustomerDetails"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.9"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal">
+            <ListView
+                android:id="@+id/customlist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ListView>
+        </LinearLayout>
+
+
+
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:text="Customerdata"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            />
+
+
+        <Spinner
+            android:id="@+id/customidS"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0.7"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Department "
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textColorHint="#808080"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"/>
+
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:text="Statusid"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+
+            <Spinner
+                android:id="@+id/statusid"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="0.7"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Department "
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textColorHint="#808080"
+                android:textSize="20sp" />
+
+        </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="80dp"
+     >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:id="@+id/newidB"
+                android:text="newcus"
+                android:textSize="13sp"
+                android:textColor="@android:color/black"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerVertical="true"
+                android:background="@drawable/savebtn"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                tools:ignore="ButtonStyle,HardcodedText,NestedWeights,ObsoleteLayoutParam,RtlHardcoded" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:textSize="13sp"
+                android:textColor="@android:color/black"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerVertical="true"
+                android:id="@+id/otheridB"
+                android:text="others"
+                android:enabled="true"
+                android:background="@drawable/savebtn"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                tools:ignore="ButtonStyle,HardcodedText,ObsoleteLayoutParam,RtlHardcoded" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:textSize="13sp"
+                android:textColor="@android:color/black"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerVertical="true"
+                android:id="@+id/cancelcus"
+                android:text="cancel"
+                android:enabled="true"
+                android:background="@drawable/savebtn"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                tools:ignore="ButtonStyle,HardcodedText,ObsoleteLayoutParam,RtlHardcoded" />
+
+        </LinearLayout>
+       <!-- <Button
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:background="@drawable/white_button"
+            android:text="notes"
+            android:textColor="@android:color/black"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerVertical="true"
+            android:id="@+id/notes_id"
+            />-->
+
+</LinearLayout>
+</LinearLayout>

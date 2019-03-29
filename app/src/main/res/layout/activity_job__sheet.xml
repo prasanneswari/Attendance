@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jts.root.attendance.Job_Sheet">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#599ABB"
+        android:layout_marginBottom="10dp"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.8"
+            android:layout_height="wrap_content"
+            android:text="JObSheet"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+        <Button
+            android:id="@+id/cancelid"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_button"
+            android:text="cancel"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/white_button"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="calender"
+            android:id="@+id/calender_id"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam,SpUsage" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ccc">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <TableRow
+                android:id="@+id/row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/blue_background">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:text="Cusname"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:background="#000">
+                </View>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:text="Fullname"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:background="#000">
+                </View>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:text="Cuscontact"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:background="#000">
+                </View>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:text="Apntdate"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:background="#000">
+                </View>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:text="Visitedate"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:background="#000">
+                </View>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:text="Notes"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:background="#000">
+                </View>
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:layout_gravity="center_horizontal">
+        <ListView
+            android:id="@+id/eventlist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <Button
+            android:id="@+id/arrivedbtn"
+            android:text="arrived"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/white_button"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam,SpUsage" />
+    </LinearLayout>
+    </LinearLayout>
+

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jts.root.attendance.Adapter_get_notes">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        tools:ignore="UselessParent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:id="@+id/row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.2"
+                    android:layout_height="match_parent"
+                    android:text="CusName"
+                    android:id="@+id/Ncusname"
+                    android:textColor="#000"
+                    android:paddingRight="2dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:background="#000">
+                </View>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.2"
+                    android:layout_height="match_parent"
+                    android:text="FullNmae"
+                    android:id="@+id/Nfullname"
+                    android:textColor="#000"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:background="#000">
+                </View>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_height="match_parent"
+                    android:text="TimeStamp"
+                    android:id="@+id/Ntimestamp"
+                    android:textColor="#000"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:background="#000">
+                </View>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_height="match_parent"
+                    android:text="Notes"
+                    android:id="@+id/Nnotes"
+                    android:textColor="#000"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:background="#000">
+                </View>
+
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jts.root.attendance.Notes"
+    android:orientation="vertical"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#599ABB">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:layout_height="wrap_content"
+            android:text="NOTES"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+
+            />
+
+    </LinearLayout>
+
+
+<!--<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="10dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp">
+
+    <Button
+        android:id="@+id/noticebtn"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/white_button"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="NOTICE HISTORY"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam,SpUsage" />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        >
+        <Button
+            android:id="@+id/historybtn"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/white_button"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="NOTICE HISTORY"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam,SpUsage" />
+    </LinearLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="0.4"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="2dp"
+            android:text="DistanceTravelled "
+            android:textColor="@android:color/black"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <EditText
+            android:id="@+id/distanceid"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="0.6"
+            android:background="@drawable/border"
+            android:gravity="center_vertical"
+            android:hint=" DistanceTravelled"
+            android:paddingLeft="20dp"
+            android:paddingRight="2dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@android:color/black"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Statusid"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+        <Spinner
+            android:id="@+id/statusid"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0.6"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Department "
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textColorHint="#808080"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:text="Userid"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+        <Spinner
+            android:id="@+id/userid"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0.7"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Department "
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textColorHint="#808080"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>-->
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/noteid"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0.7"
+            android:background="@null"
+            android:gravity="top|left"
+            android:hint="Text Note........"
+            android:inputType="textMultiLine"
+            android:lines="10"
+            android:maxLines="15"
+            android:minLines="5"
+            android:scrollbars="vertical"
+            android:singleLine="true"
+            android:textColor="#2d6df7"
+            android:layout_marginLeft="10dp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/dateid"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_weight="0.3"
+            android:background="@drawable/border"
+            android:gravity="center_vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
+            android:text="Choose Date"
+            android:layout_marginRight="20dp"
+            android:textColor="@android:color/holo_green_light"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/appointmentbtn"
+            android:text="apnt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:textSize="13sp"
+            android:textColor="@android:color/black"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerVertical="true"
+            android:background="@drawable/savebtn"
+           android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/savebtn"
+            android:text="save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:textSize="13sp"
+            android:textColor="@android:color/black"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerVertical="true"
+            android:background="@drawable/savebtn"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/cancelnote"
+            android:text="cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:textSize="13sp"
+            android:textColor="@android:color/black"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerVertical="true"
+            android:background="@drawable/savebtn"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam,RtlHardcoded" />
+    </LinearLayout>
+</LinearLayout>
+
